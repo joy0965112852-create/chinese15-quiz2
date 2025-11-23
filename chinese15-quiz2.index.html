@@ -5018,8 +5018,8 @@ const questionBank = [
     // 新增這一行：從瀏覽器記憶體讀取最高分，如果沒有就預設為 0
     let highScore = localStorage.getItem('chinese_quiz_highscore') || 0;
     let timerInterval;
-    let timeLeft = 10; 
-    const MAX_TIME = 10;
+    let timeLeft = 15; 
+    const MAX_TIME = 15;
 
     function initGame() {
         // 隱藏結束畫面
